@@ -290,10 +290,10 @@ body {
     border-radius: 50%;
     line-height: 50px;
     text-align: center;
-    border: 1px solid #d6c6b2;
+    border: 1px solid #3fff00;
     margin-right: 10px;
     font-size: 22px;
-    color: #d6c6b2;
+    color: white;
     transition: all .3s;
     
 }
@@ -301,8 +301,8 @@ body {
 
 #about .about-link li a i:hover{
     color: #222222;
-    background: #d6c6b2;
-    border-color: #d6c6b2;
+    background: #3fff00;
+    border-color: #3fff00;
     
 }
 
@@ -326,7 +326,7 @@ body {
 }
 
 .color-3{
-    color: #d6c6b2;
+    color: white;
 }
 
 
@@ -341,12 +341,13 @@ body {
     margin-bottom: 0;
     font-size: 16px;
     line-height: 24px;
-    color: #d6c6b2;b
+    color: white;
 }
 
-.btn-danger{
+.btn-success{
     border-radius: 0;
     padding: 10px 20px;
+    
 }
 
   /* ======================================== */
