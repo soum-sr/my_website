@@ -226,13 +226,13 @@ body {
   /* ======================================== */
 
 
-  /* ==========ABOUT ME========= */
+  /* ===============ABOUT ME================== */
+  /* ======================================== */
 
-  #about{
+#about{
     padding-top: 98px;
     padding-bottom: 101px;
 }
-
 #about .triangle-right{
     margin-top: 95px;
     width: 0;
@@ -240,50 +240,33 @@ body {
     border-top: 259px solid transparent;
     border-left: 470px solid #d6c6b2;
     border-bottom: 259px solid transparent;
-    
-    
 }
-
 #about .triangle-right img{
     position: absolute;
     left: -1px;
     top: 81px;
     width: 74%;
- 
 }
-
 .fa-play{
     font-size: 100px;
-    
 }
-
-
 #about .p-first{
     margin-bottom: 30px;
 }
-
-
 #about h2{
     margin-bottom: 47px;
     margin-top: 12px;
-    
 }
-
-
 #about .social-link-text{
     margin-top: 50px;
     margin-bottom: 25px;			
-    
 }
-
 #about .about-link{
     padding-left: 0px;
 }
-
 #about .about-link li{
     display: inline-block;
 }
-
 #about .about-link li a i{
     width: 50px;
     height: 50px;
@@ -295,26 +278,18 @@ body {
     font-size: 22px;
     color: white;
     transition: all .3s;
-    
 }
-
-
 #about .about-link li a i:hover{
     color: #222222;
     background: #3fff00;
     border-color: #3fff00;
-    
 }
-
-
 #about .about-img{
     position: relative;
     
 }
-
 #about .about-img{
     position: relative;
-    
 }
 
 #about .about-img .man{
@@ -322,18 +297,13 @@ body {
     bottom: 161px;
     top: 12px;
     left: -2px;
-    
 }
-
 .color-3{
     color: white;
 }
-
-
 .text-white{
     color: white;
 }
-
 .about-right{
     padding-top:40px;
 }
@@ -343,16 +313,19 @@ body {
     line-height: 24px;
     color: white;
 }
-
 .btn-success{
     border-radius: 0;
     padding: 10px 20px;
-    
+}
+.about_me{
+  padding-bottom: 40px;
 }
 
   /* ======================================== */
   /* ======================================== */
 
+ /* ===============READING SECTION================== */
+  /* ======================================== */
 .parallax-reading {
     min-height: 300px;
     background: transparent;
