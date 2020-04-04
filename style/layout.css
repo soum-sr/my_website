@@ -84,11 +84,12 @@ body {
       display: inline-block;
     }
   }
-
+  
   
   nav {
     background: none !important;
     text-transform: uppercase;
+    
 
   }
   nav li {
