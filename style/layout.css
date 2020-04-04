@@ -30,8 +30,7 @@ body {
     height: 10px;
     width: 90%;
     opacity: 0;
-    background: -webkit-radial-gradient(center, ellipse, rgba(63, 255, 0, 1) 0%, rgba(255, 255, 255, 0) 80%);
-    background: radial-gradient(ellipse at center, rgba(63, 255, 0, 1) 0%, rgba(255, 255, 255, 0) 80%);
+ 
     /* W3C */
     transition-duration: 0.3s;
     transition-property: transform, opacity;
@@ -352,7 +351,7 @@ body {
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
   height: 400px;
-  width:300px;
+  width:350px;
   border-radius: 25px;
   color:white;
   margin-top:10px;
