@@ -1,0 +1,200 @@
+body {
+    font-weight: 600;
+    color: white;
+    background-color:black !important;
+  }
+
+
+.container-fluid{
+    background-color:black;
+    text-align: center;
+}
+.hoverable {
+    display: inline-block;
+    backface-visibility: hidden;
+    vertical-align: middle;
+    position: relative;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transform: translateZ(0);
+    transition-duration: .3s;
+    transition-property: transform;
+  }
+  
+  .hoverable:before {
+    position: absolute;
+    pointer-events: none;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(63, 255, 0, 1) 0%, rgba(255, 255, 255, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(63, 255, 0, 1) 0%, rgba(255, 255, 255, 0) 80%);
+    /* W3C */
+    transition-duration: 0.3s;
+    transition-property: transform, opacity;
+  }
+  
+  .hoverable:hover, .hoverable:active, .hoverable:focus {
+    transform: translateY(-5px);
+  }
+  
+  .hoverable:hover:before, .hoverable:active:before, .hoverable:focus:before {
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+  
+  @keyframes bounce-animation {
+    16.65% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    33.3% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    66.6% {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateY(1px);
+      transform: translateY(1px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  .bounce {
+    animation-name: bounce-animation;
+    animation-duration: 2s;
+  }
+  
+  /*everything below here is just setting up the page, so dont worry about it */
+  @media (min-width: 768px) {
+    .navbar {
+      text-align: center !important;
+      float: none;
+      display: inline-block;
+    }
+  }
+
+  
+  nav {
+    background: none !important;
+    text-transform: uppercase;
+
+  }
+  nav li {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  nav li a {
+    transition: .5s color ease-in-out;
+  }
+  
+  .page-title {
+    opacity: .75 !important;
+  }
+
+  .parallax-reading {
+    min-height: 300px;
+    background: transparent;
+    background-position: right;
+    
+}
+
+.read_content{
+  color:white;
+  font-family: "Lucida Console";
+  font-size: 3vw;
+  text-align: left;
+  padding-top:18vh;
+  padding-left:15vh;
+  z-index: 2;
+  position:relative;
+}
+
+ /* ======================================== */
+  /* ======================================== */
+
+ /* ===============READING SECTION================== */
+  /* ======================================== */
+  
+.glow-on-hover {
+
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(10px);
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 25px;
+}
+
+.glow-on-hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 25px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+ /* ======================================== */
+  /* ======================================== */
+
+ /* ===============RESUME================== */
+  /* ======================================== */
+
+  .resume{
+    
+    display:block;
+    margin: 100px auto;
+    border-radius: 25px;
+    width:70%;
+    height:70%
+  }
+  
+  .resume img{
+    border-radius: 25px;
+   
+  }
