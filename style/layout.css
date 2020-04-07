@@ -385,8 +385,8 @@ body {
   
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
-  height: 400px;
-  width:350px;
+  height: 450px;
+  width:45vh;
   border-radius: 25px;
   color:white;
   margin-top:10px;
@@ -416,9 +416,11 @@ body {
 .card .header {
   margin-bottom:15px;
 }
-.card img{
+.card img {
   width:100%;
-  border-radius: 25px;
+  }
+.card .image{
+  min-height: 150px;
 }
 .card .content{
   color:rgb(190, 189, 189);
