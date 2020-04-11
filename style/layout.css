@@ -168,6 +168,7 @@ body {
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
+
   
   .css-typing .second_p {
     width: 11.5em;
@@ -400,12 +401,18 @@ body {
 .read_content{
     color:white;
     font-family: "Lucida Console";
-    font-size: 3vw;
+    font-size: 40px;
     text-align: left;
     padding-top:18vh;
     padding-left:15vh;
     z-index: 2;
     position:relative;
+}
+
+@media only screen and (max-width: 480px) {
+  .read_content {
+    font-size: 30px;
+  }
 }
 .article_cards{
   padding-top:100px;
