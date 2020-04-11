@@ -412,6 +412,8 @@ body {
 @media only screen and (max-width: 480px) {
   .read_content {
     font-size: 30px;
+    padding-top:12vh;
+    padding-left: 2px;
   }
 }
 .article_cards{
