@@ -233,42 +233,21 @@ body {
  /* ======================================== */
   /* ======================================== */
 
- /* ===============RESUME================== */
+ /* ===============ABOUT PAGE================== */
   /* ======================================== */
 
-  .resume{
-    
-    display:block;
-    margin: 100px auto;
-    border-radius: 25px;
-    width:70%;
-    height:70%
-  }
   
-  .resume img{
-    border-radius: 25px;
-   
-  }
-
-
- /* ===============DOWLOAD================== */
-  /* ======================================== */
-
-.download_button{
-    margin: 0;
-    padding-bottom: 20vh;
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.download_button button{
+.about_me .about h1
+{
+  color:white;
+  font-size:50px;
   font-family: monospace;
+}  
+
+.about_me .about_content 
+{
+  margin-top: 50px;
+  color:rgb(165, 162, 162);
   font-size:20px;
-  height:50px;
-  width:270px;
+  font-family: Helvetica;
 }
