@@ -236,39 +236,24 @@ body {
  /* ===============RESUME================== */
   /* ======================================== */
 
-  .resume{
+  .contact_me
+  {
     
-    display:block;
-    margin: 100px auto;
-    border-radius: 25px;
-    width:70%;
-    height:70%
+    padding-left: 200px !important;
+    padding-right: 200px !important;
   }
-  
-  .resume img{
-    border-radius: 25px;
-   
-  }
-
-
- /* ===============DOWLOAD================== */
-  /* ======================================== */
-
-.download_button{
-    margin: 0;
-    padding-bottom: 20vh;
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.download_button button{
+.contact_me .contact h1
+{
+  color:white;
+  font-size:50px;
   font-family: monospace;
+  font-weight: 900;
+}  
+
+.contact_me .contact_content 
+{
+  margin-top: 50px;
+  color:rgb(165, 162, 162);
   font-size:20px;
-  height:50px;
-  width:270px;
+  font-family: 'Gill Sans', sans-serif;
 }
