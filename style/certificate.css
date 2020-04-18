@@ -299,3 +299,11 @@ body {
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
+
+.head_cert{
+  color:white;
+  font-family: monospace;
+  font-weight: 800;
+  font-size:40px;
+  padding-left:0.7em ;
+}
