@@ -322,15 +322,6 @@ body {
   margin-bottom: 1px;
   margin-top:10px;
 }
-.card .verify{
-  color: #3fff00;
-  position: absolute;
-  font-size: 15px;
-  margin-bottom: 1px;
-  bottom:20px;
-  margin-left: 69%;
-}
-
 
 .card .header {
   margin-bottom:15px;
@@ -345,6 +336,31 @@ body {
   color:rgb(190, 189, 189);
 }
 
+.card .read-more a {
+  
+  color: #3fff00;
+  position: absolute;
+  font-size: 15px;
+  margin-bottom: 1px;
+  text-decoration: none;
+  margin-left: 69%;
+  position: absolute;
+  bottom:20px;
+}
+.card .read-more a:after {
+  content: "\f061";
+  font-family: FontAwesome;
+  font-size: 14px;
+  margin-left: -10px;
+  opacity: 0;
+  vertical-align: middle;
+  -webkit-transition: margin .3s, opacity .3s;
+  transition: margin .3s, opacity .3s;
+}
+.card .read-more a:hover:after {
+  margin-left: 5px;
+  opacity: 1;
+}
 
 .glow-on-hover {
 
