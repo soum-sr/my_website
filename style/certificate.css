@@ -294,7 +294,7 @@ body {
   
   transition: all 0.2s ease-in-out;
   box-sizing: border-box;
-  height: 400px;
+  height: 450px;
   width:45vh;
   border-radius: 25px;
   color:white;
@@ -308,7 +308,7 @@ body {
   padding:10px;
 }
 .card .header h2 {
-  font-size: 23px;
+  font-size: 21px;
   padding-top: 10px;
   margin-bottom: 0px;
   margin-top:0px;
@@ -322,6 +322,16 @@ body {
   margin-bottom: 1px;
   margin-top:10px;
 }
+.card .verify{
+  color: #3fff00;
+  position: absolute;
+  font-size: 15px;
+  margin-bottom: 1px;
+  bottom:20px;
+  margin-left: 69%;
+}
+
+
 .card .header {
   margin-bottom:15px;
 }
