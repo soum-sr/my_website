@@ -239,8 +239,8 @@ body {
   .about_me
   {
     
-    padding-left: 200px !important;
-    padding-right: 200px !important;
+    padding-left: 12em !important;
+    padding-right: 12em !important;
   }
 .about_me .about h1
 {
@@ -256,4 +256,30 @@ body {
   color:rgb(165, 162, 162);
   font-size:20px;
   font-family: 'Gill Sans', sans-serif;
+}
+@media only screen and (max-width: 700px){
+    .about_me
+    {
+      
+      padding-left: 2em !important;
+      padding-right: 2em !important;
+    }
+    .about_me .about h1
+{
+  color:white;
+  font-size:35px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 900;
+}  
+
+    
+    .about_me .about_content 
+{
+  margin-top: 50px;
+  color:rgb(165, 162, 162);
+  font-size:15px;
+  font-family: 'Gill Sans', sans-serif;
+}
+  
 }
