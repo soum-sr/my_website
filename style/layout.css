@@ -106,7 +106,6 @@ body {
     animation-duration: 2s;
   }
   
-  /*everything below here is just setting up the page, so dont worry about it */
   @media (min-width: 768px) {
     .navbar {
       text-align: center !important;
@@ -118,8 +117,6 @@ body {
   nav {
     background: none !important;
     text-transform: uppercase;
-    
-
   }
   nav li {
     margin-left: 3em;
@@ -168,7 +165,7 @@ body {
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
-
+ 
   
   .css-typing .second_p {
     width: 11.5em;
@@ -181,7 +178,15 @@ body {
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
-  
+  @media (max-width: 768px) {
+    .css-typing .first_p {
+      font-size: 28px;
+    }
+    .css-typing .second_p{
+      font-size: 25px;
+    }
+  }
+
   @keyframes type {
     0% {
       width: 0;
