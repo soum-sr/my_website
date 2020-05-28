@@ -150,7 +150,7 @@ body {
 }
 .css-typing p {
     border-right: .15em solid #20C20E;
-    font-family: "Lucida Console";
+    font-family: monospace;
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
