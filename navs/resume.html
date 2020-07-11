@@ -39,11 +39,30 @@
             </div>
         </div>
 </div> -->
+<div class="theme-changer">
+    <input type="checkbox" name="checkbox" class="switch" onclick="myFunction()">
+</div>
 <div class="resume glow-on-hover">
-    <img class="img-responsive"  src="../images/backgrounds/resume.png">
+    <img class="img-responsive" id="resumeImg"  src="../images/backgrounds/resume.png">
 </div>
 <div class="download_button">
-    <a href="../downloadables/soumyajit_resume.pdf" download><button class="glow-on-hover-nav" type="button"><i class="fa fa-download"></i>  DOWNLOAD RESUME</button></a>
+    <a id="download_resume" href="../downloadables/soumyajit_resume_dark.pdf" download><button class="glow-on-hover-nav" type="button"><i class="fa fa-download"></i>  DOWNLOAD RESUME</button></a>
 </div>
+<script>
+    function myFunction(){
+        var resume_img = document.getElementById('resumeImg');
+        var download_button = document.getElementById('download_resume');
+        console.log(download_button.href);
+        if (resume_img.src.includes('resume.png') && (download_button.href.includes('soumyajit_resume_dark.pdf'))){
+            resume_img.src = '../images/backgrounds/resume-light.jpg';
+            download_button.href = "../downloadables/soumyajit_resume.pdf";
+
+        }
+        else{
+            resume_img.src = '../images/backgrounds/resume.png';
+            download_button.href = "../downloadables/soumyajit_resume_dark.pdf";
+        }
+    }
+</script>
 </body>
 </html>
