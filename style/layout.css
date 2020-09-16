@@ -294,6 +294,14 @@ body {
   margin: 0px 18% 0px 18%;
   background-color: rgba(20, 19, 19, 0.521);
   border:1px solid green;
+  animation-name:textbox;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes textbox{
+  from {margin: 0px 2% 0px 2%;}
+  to {margin: 0px 18% 0px 18%;}
 }
 
 @media only screen and (max-width: 700px) {
@@ -303,6 +311,8 @@ body {
   border:1px solid green;
   }
 }
+
+
 
   /* ======================================== */
   /* ======================================== */
