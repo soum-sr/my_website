@@ -265,8 +265,8 @@ nav li a {
   display: block;
   width: 30px;
   height: 30px;
-  border-bottom: 5px solid #ff1414;
-  border-right: 5px solid #e21e1e;
+  border-bottom: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
   transform: rotate(45deg);
   margin: -10px;
   animation: animate 2s infinite;
